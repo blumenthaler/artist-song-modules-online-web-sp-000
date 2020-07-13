@@ -9,8 +9,6 @@ class Song
   include Paramable
   @@songs = []
 
-
-
   def self.all
     @@songs
   end
