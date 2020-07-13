@@ -7,6 +7,7 @@ class Song
   include Memorable::InstanceMethods
   extend Findable
   include Paramable
+  
   @@songs = []
 
   def self.all
